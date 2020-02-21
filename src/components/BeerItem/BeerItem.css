@@ -1,0 +1,93 @@
+.card-item {
+    height: 29em;
+    width: 17em;
+    border: .1em solid black;
+    padding: 0.1em;
+    position: relative;
+}
+
+.beer-img {
+    height: 13em;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3em;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.header-content-packsize{
+    font-size: .97em;
+    color: grey;
+}
+
+.header-content-price{
+    font-size: .97em;
+    line-height: 1.97em;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90px;
+}
+
+.body-content-promotion-text {
+    font-size: .92em;
+    color: #20ac0b;
+}
+
+.body-details-text{
+    font-size: .97em
+}
+
+.card-content {
+    margin-left: 0.3em;
+}
+
+.card-footer {
+    margin-left: 0.3em;
+    position: absolute;
+    bottom: 10px;
+}
+
+.circle-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 16px;
+    border: .06em solid #0f95ee;
+    color: #0f95ee;
+    background-color: white;
+    outline: none;
+}
+
+.circle-button:active {
+    background-color: #0f95ee;
+    transition: all 0.2s;
+    color: white;
+    border: none;
+}
+
+.input-footer {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 2.5em;
+    height: 1.2em;
+    text-align: center;
+    border-radius: 0.2em;
+    outline: none;
+    border: 0.1em solid black;
+}
